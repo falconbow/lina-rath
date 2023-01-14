@@ -30,3 +30,9 @@
     font-size: 24px;
     font-weight: 700
 };
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
