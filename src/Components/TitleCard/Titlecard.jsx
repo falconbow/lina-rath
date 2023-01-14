@@ -10,7 +10,7 @@ export default function Titlecard() {
         setCurrentTitle(possibleTitles[titleCounter]);
     });
     useEffect(() => {
-        const titleInterval = setInterval(shuffle, 1000);
+        const titleInterval = setInterval(shuffle, 3000);
         if(titleCounter === 4) {
             setTitleCounter(1)
         }
