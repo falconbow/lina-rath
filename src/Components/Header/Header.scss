@@ -4,7 +4,7 @@
 .header {
     width: 100%;
     display: flex;
-    // justify-content: space-evenly;
+    position: absolute;
     align-items: center;
     height: 96px;
     background: rgba(18, 10, 31, 0.46);
@@ -15,7 +15,7 @@
         justify-content: space-evenly;
     }
     &_links div:last-child{
-    color: $default-purple;
+        color: $default-purple;
     }
 }
 
