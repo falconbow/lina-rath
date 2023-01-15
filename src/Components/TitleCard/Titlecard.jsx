@@ -1,4 +1,5 @@
 import React, {useState, useCallback, useEffect} from 'react';
+import Button from '../Button/Button';
 import './Titlecard.scss';
 
 export default function Titlecard() {
@@ -23,7 +24,7 @@ export default function Titlecard() {
         <div className='titlecard_textbox'>
             <span className='titlecard_header'>Hi there! I'm Lina,</span>
             <span className='titlecard_titles'>{currentTitle}</span>
-            <div className='buttonplaceholder'></div>
+            <Button/>
         </div>
     </div>
   )
