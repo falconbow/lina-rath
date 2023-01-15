@@ -11,14 +11,14 @@
     background: linear-gradient(to left, transparent 50%, $default-purple 50%);
     background-size: 200%;
     background-position:right bottom;
-    transition: all 1s ease;
-    border-radius: 25px;
+    transition: all 0.8s ease;
+    border-radius: 40px;
     &_circle {
         width: 30%;
         background: url('../../assets/button-circle.svg') no-repeat;
         background-size: fill;
         height: 100%;
-        transform: translateY(1px)
+        transform: translateY(1px) scale(1.04);
     }
     &_text {
         @include flex-center;
@@ -27,7 +27,7 @@
     }
 }
 .button:hover {
-    transition:all 2s ease;
+    transition:all 0.8s ease;
     cursor: pointer;
     background-position:left bottom;
 }
