@@ -1,0 +1,32 @@
+@import '../../styles/variables.scss';
+@import '../../styles/colors.scss';
+
+.button {
+    margin-left: 50px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: linear-gradient(to left, transparent 50%, $default-purple 50%);
+    background-size: 200%;
+    background-position:right bottom;
+    transition: all 1s ease;
+    border-radius: 60px;
+    &_circle {
+        width: 30%;
+        background: url('../../assets/button-circle.svg') no-repeat;
+        background-size: fill;
+        height: 100%;
+    }
+    &_text {
+        @include flex-center;
+        justify-content: start;
+        @include web-font-small;
+    }
+}
+.button:hover {
+    transition:all 2s ease;
+    cursor: pointer;
+    background-position:left bottom;
+}
