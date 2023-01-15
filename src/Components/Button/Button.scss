@@ -12,12 +12,13 @@
     background-size: 200%;
     background-position:right bottom;
     transition: all 1s ease;
-    border-radius: 60px;
+    border-radius: 25px;
     &_circle {
         width: 30%;
         background: url('../../assets/button-circle.svg') no-repeat;
         background-size: fill;
         height: 100%;
+        transform: translateY(1px)
     }
     &_text {
         @include flex-center;
