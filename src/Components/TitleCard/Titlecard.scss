@@ -12,10 +12,9 @@
         @include flex-center;
         align-items: flex-start;
         flex-direction: column;
+        margin-left: 7%;
         & span {
             padding-bottom: 40px;
-            margin-left: 13%;
-            
         }
     }
     &_header {
