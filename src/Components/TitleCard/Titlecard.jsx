@@ -24,7 +24,7 @@ export default function Titlecard() {
         <div className='titlecard_textbox'>
             <span className='titlecard_header'>Hi there! I'm Lina,</span>
             <span className='titlecard_titles'>{currentTitle}</span>
-            <Button buttonText={'VIEW CV'}/>
+            <Button text={'VIEW CV'}/>
         </div>
     </div>
   )

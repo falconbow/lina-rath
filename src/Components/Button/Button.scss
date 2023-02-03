@@ -2,18 +2,18 @@
 @import '../../styles/colors.scss';
 
 .button {
-    width: 200px;
+    width: max-content;
     height: 50px;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: space-between;
     background: linear-gradient(to left, transparent 50%, $default-purple 50%);
     background-size: 200%;
     background-position:right bottom;
     transition: all 0.8s ease;
     border-radius: 40px;
     &_circle {
-        width: 30%;
+        width: 60px;
         background: url('../../assets/button-circle.svg') no-repeat;
         background-size: fill;
         height: 100%;
@@ -23,6 +23,7 @@
         @include flex-center;
         justify-content: start;
         @include web-font-small;
+        margin-right: 20px;
     }
 }
 .button:hover {
