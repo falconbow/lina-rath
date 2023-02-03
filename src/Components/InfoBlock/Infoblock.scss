@@ -6,8 +6,11 @@
     height: 100vh;
     @include flex-center;
     flex-direction: column;
-    flex-wrap: wrap;
     padding: 60px 7%;
+    &_heading {
+        @include web-font-mid;
+        padding-bottom: 30px;
+    }
     &_content {
         width: 100%;
         display: flex;

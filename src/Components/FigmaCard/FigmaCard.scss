@@ -8,5 +8,16 @@
     margin: 10px;
     display: flex;
     flex-direction: column;
-    @include web-font-small
+    @include web-font-small;
+    &_name {
+        @include web-font-small;
+        margin-bottom: 32px;
+    }
+    &_descr {
+        @include web-font-smallest;
+        margin-bottom: 32px;
+    }
+    &_info-wrapper {
+        padding: 20px;
+    }
 }
