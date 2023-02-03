@@ -1,37 +1,37 @@
 export const projectStructure = [
     {
         name: 'UI Design',
-        typeofBlock: 'tiles',
+        type: 0,
         contents: [
             {
                 name: 'Litrar Audiobooks (Mobile App)',
                 descr: 'A mobile app design of an audiobook app',
                 link: 'https://google.com',
-                img: 'default',
+                img: '/works/ui-design/0.png',
             },
             {
                 name: 'Suni Sneaker Shop (Mobile App)',
                 descr: 'A mobile app design of a sneaker shop',
                 link: 'https://google.com',
-                img: 'default',
+                img: '/works/ui-design/1.png',
             },
             {
                 name: 'Web Landing Design Examples',
                 descr: 'A few examples of web landing designs',
                 link: 'https://google.com',
-                img: 'default',
+                img: '/works/ui-design/2.png',
             },
             {
                 name: 'Mobile Apps Design Examples',
                 descr: 'Different app examples showing the variety of designs I create',
                 link: 'https://google.com',
-                img: 'default',
+                img: '/works/ui-design/3.png',
             },
         ]
     },
     {
         name: 'Theater Concepts',
-        typeofBlock: 'carousels',
+        type: 1,
         contents: [
             {
                 name: 'Blacklight Retrofuture',
@@ -54,7 +54,7 @@ export const projectStructure = [
     },
     {
         name: 'Exhibitions',
-        typeofBlock: 'carousel',
+        type: 1,
         contents: [
             {
                 name: 'Fractals in Nature',
@@ -68,25 +68,25 @@ export const projectStructure = [
     },
     {
         name: 'Event Concepts',
-        typeofBlock: 'tiles', 
+        type: 0, 
         contents: [
             {
                 name: '80s Week',
                 descr: 'An event concept of a thematic festival',
                 link: 'https://google.com',
-                img: 'default',
+                img: '/works/eventconcepts/0.png',
             },
             {
                 name: 'VR Fest',
                 descr: 'A concept of a digital expo',
                 link: 'https://google.com',
-                img: 'default',
+                img: '/works/eventconcepts/1.png',
             },
         ]
     },
     {
         name: 'Lighting Design',
-        typeofBlock: 'carousels',
+        type: 1,
         contents: [
             {
                 name: 'Pokémon Internet Cafe',
